@@ -6,4 +6,4 @@ Hyperledger education and training material
 3. But got the following error message: `failed to solve: process "/bin/sh -c pip install --no-cache-dir aiosqlite~=0.6.0" did not complete successfully: exit code: 1`
 4. The issue was about installing the `aiosqlite` due to missing setuptools package. 
 5. So I made the update in the following dockerfile, by adding `setuptools` to the pip install: `pool.dockerfile`. 
-6. It worked fine.
+6. It worked fine, updated Dockerfile was added: `(UPDATED)pool.dockerfile`
